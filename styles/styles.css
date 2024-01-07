@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+.container-banner {
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+    max-width: 1320px;
+    height: 600px;
+    background-position: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../assets/Image.png);
+
+
+}
+
+
+.banner-text {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 344px;
+    padding-right: 344px;
+    padding-bottom: 177px;
+
+
+}
+
+#new-year {
+
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+#Celebration {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
