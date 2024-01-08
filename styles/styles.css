@@ -305,10 +305,7 @@ button:hover {
 img:hover { 
      cursor: pointer; color: rgb(156, 247, 247);} 
 .image-container
-{ display: table; padding: 10px;
+{ display: grid; padding: 10px;
     background-position:center;
 } 
 
-.overlay{ position: absolute;
-    align-items: flex; ;
-}
