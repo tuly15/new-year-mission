@@ -302,10 +302,15 @@ button:hover {
 
 
 } 
-img:hover { 
-     cursor: pointer; color: rgb(156, 247, 247);} 
+
 .image-container
-{ display: grid; padding: 10px;
-    background-position:center;
-} 
+{ display: flex;
+    
+}     
+.row-one{ border: #FFF;border-radius: 16px;
+     } 
+     .row-two{border: #FFF;border-radius: 16px; }
+
+img:hover { 
+     cursor: pointer;} 
 
