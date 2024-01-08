@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
 .container-banner {
     border-radius: 16px;
     margin-top: 50px;
@@ -39,4 +44,33 @@
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
+}
+
+.content-text {
+    text-align: center;
+    font-family: 'Inter', sans-serif; margin: auto;
+
+}
+
+#discount {
+
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;padding-top: 120px;
+
+}
+
+#holiday {
+
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500; padding-top: 10px;padding-bottom: 0;
+
+}
+
+#catagories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700; 
 }
