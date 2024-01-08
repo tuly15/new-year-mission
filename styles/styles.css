@@ -306,12 +306,10 @@ button:hover {
 .image-container
 { display: flex; width: 424px;
     height: 450px;
-    flex-shrink: 0;
-    
+    flex-shrink: 0; justify-content: center;
+    align-items: center;
 }     
-.row-one{ border: #FFF;border-radius: 16px;
-     } 
-     .row-two{border: #FFF;border-radius: 16px; }
+
 
 img:hover { 
      cursor: pointer;} 
