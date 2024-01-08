@@ -302,10 +302,13 @@ button:hover {
 
 
 } 
-img:hover  { background-position:center;
+img:hover { 
      cursor: pointer; color: rgb(156, 247, 247);} 
 .image-container
 { display: table; padding: 10px;
-   
+    background-position:center;
 } 
 
+.overlay{ position: absolute;
+    align-items: flex; ;
+}
