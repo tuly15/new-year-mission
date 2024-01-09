@@ -385,7 +385,8 @@ img:hover {
     text-align: center;
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;border: none;
+    font-weight: 400;
+    border: none;
 
 
 }
@@ -394,5 +395,44 @@ img:hover {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: none;
+
+}
+
+
+.footer-container {
+    width: 1600px;
+    max-width: 100%;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFF;
+}
+
+
+.footer-cont-info {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    padding-top: 120px;line-height: 40px;
+
+}
+
+.footer-img-cont {
+    margin-left: 700px;
+    border-top: 80px;
+    border-bottom: 80px;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 120px;
 
 }
