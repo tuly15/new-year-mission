@@ -424,7 +424,7 @@ img:hover {
 
 
 .footer-cont-info {
-    display: flex; 
+    display: flex;
     gap: 50px;
     justify-content: space-around;
     padding-top: 120px;
@@ -432,7 +432,12 @@ img:hover {
 
 }
 
-     
+.address {
+    height: 80px;
+    width: 375px;
+
+}
+
 .footer-img-cont {
     margin-left: 600px;
     border-top: 80px;
@@ -469,7 +474,8 @@ img:hover {
 
 }
 
-.hot-discount { border: none;
+.hot-discount {
+    border: none;
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -498,6 +504,7 @@ img:hover {
     display: flex;
 }
 
-  .cercle {width: 220.048px;
-    height: 220.048px;}
-    
+.cercle {
+    width: 220.048px;
+    height: 220.048px;
+}
