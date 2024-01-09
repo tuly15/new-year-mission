@@ -308,7 +308,7 @@ button:hover {
     width: 424px;
     height: 450px;
     border-radius: 16px;
-    gap: 20px;
+    gap: 20px; 
 
 
 }
@@ -317,6 +317,8 @@ button:hover {
     display: flex;
     gap: 20px;
     padding-bottom: 20px;
+    filter: blur(100%);
+    transition: 0.25s ease-in-out;
 }
 
 .img-set-two {
@@ -324,9 +326,10 @@ button:hover {
     gap: 20px;
 }
 
-img:hover {
-    cursor: pointer;
-}
+img:hover { cursor: pointer;}
+
+
+
 
 .newslatter {
     width: 83%;
