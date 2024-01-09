@@ -150,7 +150,6 @@
     text-transform: capitalize;
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -308,7 +307,7 @@ button:hover {
     width: 424px;
     height: 450px;
     border-radius: 16px;
-    gap: 20px; 
+    gap: 20px;
 
 
 }
@@ -317,8 +316,7 @@ button:hover {
     display: flex;
     gap: 20px;
     padding-bottom: 20px;
-    filter: blur(100%);
-    transition: 0.25s ease-in-out;
+
 }
 
 .img-set-two {
@@ -326,9 +324,9 @@ button:hover {
     gap: 20px;
 }
 
-img:hover { cursor: pointer;}
-
-
+img:hover {
+    cursor: pointer;
+}
 
 
 .newslatter {
@@ -371,10 +369,8 @@ img:hover { cursor: pointer;}
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 
 }
-
 
 
 #email-sec form {
